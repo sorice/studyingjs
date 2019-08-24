@@ -10,7 +10,12 @@
 
 <body>
     <!-- <canvas id="canvas" width="400" height="400"></canvas> -->
-    <script src="vars.js"> </script>
 </body>
 
+<script>
+    var cap=window.prompt("Ingrese el número del capítulo");
+    var element = document.createElement('script');
+    element.src = "cap"+cap+".js";      // direccion donde estan ubicados los js
+    document.body.appendChild(element);
+</script>
 </html>
