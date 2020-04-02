@@ -1,0 +1,15 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "$id": "https://static.thelos.io/schema/conditionalFunctionalStep.json",
+    "description": "schema to define a conditional functional step.",
+    "type": "object",
+    "additionalProperties": false,
+	"properties": {
+        "type": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "type"
+    ]
+}
